@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container .contact {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.container .contact .logo img {
+    height: 70px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.container .contact .contact-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.container .contact .location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.container .navbar {
+    background-color: #5760a7 !important;
+}
+
+.container .collapse {
+    justify-content: space-around !important;
+
+}
+
+.container .navbar-nav {
+    gap: 30px !important;
+}
+
+.container .navbar-nav .nav-link {
+    color: white;
+}
+
+.container .navbar-nav .active {
+    color: #EE712E !important;
+}
+
+.container .container-manager {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.container .container-manager .manager-photo .photo img {
+    height: 453px;
+    width: auto;
+}
+
+.container .container-manager .manager-slogan h2 {
+    color: #dc3545;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.container .container-manager .manager-slogan p {
+    font-size: 17px;
+    color: #666666;
+    font-weight: 500;
+    line-height: 1.7;
+    font-family: 'Farro', sans-serif;
+}
+
+.row {
+    justify-content: center;
+    align-items: center;
+}
+
+.container .copyright p a {
+    text-decoration: none;
+    color: #2338dd;
+}
+
+.container .copyright {
+    text-align: center;
+    margin-top: 12px;
+}
+
+
+
+.container .about {
+    background-color: #f8f9fa;
+    padding: 35px;
+}
+
+.container .about .about-slogan h2 {
+    color: #ce2d27;
+}
+
+
+
+.container .product {
+    padding: 30px;
+
+}
+
+@media (max-width: 1000px) {
+
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 801px !important;
+    }
+
+    .container .container-manager .manager-slogan p {
+        font-size: 15px;
+    }
+
+    .container .container-manager .manager-slogan h2 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .container .container-manager {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        padding: 5%;
+    }
+
+    #contact .row .gaurab img {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .col-sm-4 {
+        flex: 0 0 auto;
+        width: 57.333%;
+    }
+}
